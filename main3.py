@@ -1,6 +1,6 @@
-nums = [5, 7, 10, 16, 17, 23]
-count = 0
-for x in nums:
-    if  x > 10:
-     count += 1
-print(count) 
+
+n = 10
+a, b = 0, 1
+while a <= n:
+    print(a)
+    a, b = b, a + b
